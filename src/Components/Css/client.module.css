@@ -1,0 +1,39 @@
+.trusted_clients{
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+.trusted_clients > h5{
+    color: rgb(97, 97, 97);
+    font-size: 25px;
+    margin:50px auto;
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-family: var(--font);
+}
+.trusted_clients > .client_scroll_container{
+    width: calc(100vw - 150px);
+    height: 100px;
+    overflow-x: scroll;
+    background-image: url(/src/Assets/Images/trusted.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+    margin-bottom: 50px;
+    scrollbar-width: none;
+}
+.client_scroll_container::-webkit-scrollbar{
+    width: 0;
+}
+.trusted_clients > .deal_of_the_day{
+    width: calc(100vw - 150px);
+    margin: auto ;
+    background-image: url(/src/Assets/Images/poster.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:calc((100vw - 150px)/2.9);
+    margin-bottom: 0px;
+}

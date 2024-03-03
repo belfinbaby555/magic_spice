@@ -1,0 +1,142 @@
+.wallpaper{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-image: url(/src/Assets/Images/wallpaper_withname.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.background{
+    width: 100vw;
+    height: 100vh;
+    backdrop-filter: blur(3px) ;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    position: absolute;
+}
+.login_container{
+    width:350px;
+    max-height: 500px;
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.60);
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.4);
+    border-radius: 15px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 30px 40px;
+
+}
+.login_container > h1{
+    font-size: 22px;
+    font-family: var(--font);
+    color: var(--prime);
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.login_container > h2{
+    font-size: 22px;
+    font-family: var(--font);
+    color: var(--font);
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.login_container > h5{
+    font-family: var(--font);
+    font-size: 15px;
+    color: var(--font-color);
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+.login_container > input{
+    width: calc(100% - 20px);
+    height: 24px;
+    padding: 5px 10px;
+    outline: 0;
+    border: 0;
+    background-color: white;
+    font-family: var(--font);
+    border-radius: 7px;
+
+}
+.forgot{
+    background-color: transparent;
+    color: var(--prime);
+    font-family: var(--font);
+    border: 0;
+    outline: 0;
+    margin-left: auto;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+    padding-right: 0;
+}
+.signin{
+    width: 100%;
+    font-family: var(--font);
+    color: white;
+    background-color: var(--prime);
+    padding: 10px;
+    border-radius: 7px;
+    outline: 0;
+    border: 0;
+    margin: 10px 0px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.login_container > p{
+    font-family: var(--font);
+    color: var(--font-color);
+    font-size: 13px;
+    text-align: center;
+    margin-top: 0;
+    font-weight: 500;
+}
+.login_container > p > a{
+    font-weight: 600;
+    color: var(--prime);
+    cursor: pointer;
+    text-decoration: none;
+}
+.google{
+    width: 100%;
+    font-family: var(--font);
+    color: white;
+    background-color: var(--prime);
+    padding: 10px;
+    border-radius: 7px;
+    outline: 0;
+    border: 0;
+    margin: 10px 0px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.login_container > span{
+    display: flex;
+    flex-direction: row;
+    font-family: var(--font);
+    font-size: 12px;
+    margin: 0;
+    margin-top: 15px
+}
+.login_container > span > input{
+    margin: 0;
+    width: 20px;
+    height: 15px;
+    cursor: pointer;
+}
+.login_container > span > p{
+    margin: 0;
+    width: fit-content;
+    height: fit-content;
+}
+.login_container > span > p >a{
+    text-decoration: none;
+    color: var(--prime);
+    font-weight: bold;
+}
