@@ -14,4 +14,4 @@ function Feedback(){
             </div>
         </div>
     )
-}
+}export default Feedback;
